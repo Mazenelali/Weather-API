@@ -1,25 +1,85 @@
-.app {
-  height: 100vh;
-  width: 100vw;
-  transition: background-color 1s ease-in;
+*{
+    margin: 0 auto;
 }
 
-.app__header,
-.app__main {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  font-family: "Raleway", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+form{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 70em;
+}
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: cornflowerblue;
+    
+}
+input{
+    height: 60px;
+    font-size: larger;
+    font-family:monospace,"fantasy";
+    
+}
+.input {
+    background-color:transparent; 
+    border: transparent;
+    color: white;
+}
+.submit{
+    border: transparent;
+background-color: rgb(65 105 225 / 55%);
+border-radius :5px;
+width: 300px;
+height: 60px;
 }
 
-/*  Search bar */
+.content{
+    display: flex;
+    justify-content: center;
+    background-color:  lightskyblue;
+    flex-direction: column;
+    
+}
+.sun{
+width: 350px;
+}
+.sun p{
+    display: flex;
+    font-size: 3vh;
+    justify-content: center;
+    width: 350px;
+    -webkit-text-stroke-width: 1px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.caption{
+    display: flex;
+    font-size: 3vh;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px;
+}
 
-/* Current weather */
+.humidity {
+    font-size: 2vh;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.all-days{
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+    padding-top:70px;
+    padding-bottom: 70px;
+}
+.firstDay{
+    width: 150px;   
+}
+.firstDay time ,p {
+    display: flex;
+    justify-content:center ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
 
-div {
-  border: 5px solid red;
 }
