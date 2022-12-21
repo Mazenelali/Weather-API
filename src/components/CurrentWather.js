@@ -4,8 +4,12 @@ import clear from "../img/weather-icons/clear.svg"
 class CurrentWather extends React.Component {
     state = {  } 
     render() { 
+        const FakeWather = this.props.FakeWatherNow;
+        console.log(FakeWather)
+        const imageSrc = this.props.imageSrc;
+        console.log(imageSrc)
         return (
-            <div class="current_weather">
+            <div className="current_weather">
             <img src={mostlycloudy} alt="cloudy" />
             <h2>overcast cloud</h2>
             <div className="current_weather_info">
